@@ -112,7 +112,9 @@ section {
 body {
     line-height: 1;
     white-space: nowrap;
-    background-color: pink;
+    /*background-color: pink;*/
+    background: url(../img/background.jpg) no-repeat #fff;
+    background-size: cover;
 }
 b,
 strong {
@@ -796,10 +798,10 @@ button {
     padding: 0
 }
 .page-13 img {
-    height: 80%
+    height: 70%
 }
-.page-13 he {
-    height: 20%
+.page-13 h2 {
+    height: 30%
 }
 .page-14 {
     background-color: #fbf7d1
@@ -863,7 +865,7 @@ button {
 }
 .page-28 h3 {
     position: absolute;
-    right: 1em;
+    /*right: 1em;*/
     bottom: 360px;
     text-align: right;
     color: #127184
@@ -1002,9 +1004,10 @@ button {
     background-color: pink;
 }
 .page-43 img {
-    max-height: 80%
+    height: 70%
 }
 .page-43 h2 {
+    height: 30%;
     color: red;
 }
 .page-44 {
